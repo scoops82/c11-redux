@@ -18,6 +18,7 @@ export function Flashlight() {
         <button onClick={() => dispatch(on())}>On</button>
         <button onClick={() => dispatch(off())}>Off</button>
       </div>
+      <p>The light is {flashlightOn ? "on" : "off"}</p>
     </div>
   );
 }
