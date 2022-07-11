@@ -1,0 +1,8 @@
+.flashlight {
+  border-radius: 50%;
+  background-color: grey;
+  margin-block-end: 1em;
+  aspect-ratio: 1;
+  max-width: 200px;
+  margin: auto;
+}

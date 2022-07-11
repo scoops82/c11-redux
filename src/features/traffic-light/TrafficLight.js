@@ -17,7 +17,7 @@ export function TrafficLight() {
   const greenLightOn = useSelector(greenLightStatus);
 
   return (
-    <>
+    <div>
       <div className={styles.backboard}>
         <div className={styles.inner}>
           <div
@@ -39,6 +39,6 @@ export function TrafficLight() {
         <button onClick={() => dispatch(caution())}>Caution</button>
         <button onClick={() => dispatch(go())}>Go</button>
       </div>
-    </>
+    </div>
   );
 }
